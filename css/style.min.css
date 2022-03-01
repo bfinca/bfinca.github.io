@@ -5,7 +5,7 @@ body { zoom: 110%}
 }
 
 .text1 {
-   margin-left: 288px;
+   margin-left: 320px;
 }
 .text2 {
     margin-top: 40px;
@@ -218,4 +218,15 @@ body { zoom: 110%}
     background-color: #80488b !important;
     color: #ffffff !important;
     border-color: #80488b !important;
+}
+
+.border {
+    width: 1000px;
+    height: 190px;
+    margin-top: 10px;
+    background-color: #e0ffc3 !important;
+    border: 3px solid #69c712 !important;
+    border-radius: 3px !important;
+    display: inline-block !important;
+    transition: all 0.6s ease !important;
 }
