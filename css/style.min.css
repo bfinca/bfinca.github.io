@@ -1,5 +1,13 @@
 body { zoom: 110%}
 
+.prom {
+    display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   grid-column-gap: 10px;
+   grid-row-gap: 1em;
+}
+
+
 .button {
     font-weight: 600;
 }
@@ -13,7 +21,7 @@ body { zoom: 110%}
  }
  .button_2 {
     height: 40px;
-    width: 250px;
+    width: 265px;
     font-weight: 600;
     margin-left: 90px;
     margin-top: 10px;
@@ -35,7 +43,7 @@ body { zoom: 110%}
 }
  .button_1 {
      height: 40px;
-     width: 250px;
+     width: 265px;
     font-weight: 600;
     margin-left: 90px;
     margin-top: 15px;
